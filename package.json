@@ -1,0 +1,29 @@
+{
+  "name": "ts_coding",
+  "version": "1.0.0",
+  "description": "resolve homework",
+  "homepage": "https://github.com/DianaBych/QAJ15_for_homework#readme",
+  "bugs": {
+    "url": "https://github.com/DianaBych/QAJ15_for_homework/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaBych/QAJ15_for_homework.git"
+  },
+  "license": "ISC",
+  "author": "dianavika18@gmail.com",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "function0": "ts-node function0.ts",
+    "function1": "ts-node function1.ts",
+    "function2": "ts-node function2.ts",
+    "function3": "ts-node function3.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
