@@ -3,7 +3,7 @@
 function multiplicationNumbers(size: number = 10, maxValue: number = 30) {
   let arrayRandom = [];
   for (let i = 0; i < 10; i++) {
-    arrayRandom.push(Math.round(Math.random() * maxValue)+1);
+    arrayRandom.push(Math.round(Math.random() * maxValue) + 1);
   }
   arrayRandom.sort((a, b) => b - a);
   const threeNumbers = arrayRandom.slice(0, 3);
