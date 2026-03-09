@@ -19,6 +19,8 @@
     "function1": "tsx function1.ts",
     "function2": "tsx function2.ts",
     "function3": "tsx function3.ts",
+    "hw14_task0": "tsx hw14_task0.ts",
+    "hw14_task1": "tsx hw14_task1.ts",
     "test": "echo HELLO"
   },
   "devDependencies": {
