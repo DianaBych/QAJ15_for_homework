@@ -15,14 +15,13 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "function0": "ts-node function0.ts",
-    "function1": "ts-node function1.ts",
-    "function2": "ts-node function2.ts",
-    "function3": "ts-node function3.ts"
+    "function0": "tsx function0.ts",
+    "function1": "tsx function1.ts",
+    "function2": "tsx function2.ts",
+    "function3": "tsx function3.ts",
+    "test": "echo HELLO"
   },
   "devDependencies": {
-    "@types/node": "^25.3.3",
-    "ts-node": "^10.9.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
