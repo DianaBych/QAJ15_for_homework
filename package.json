@@ -21,6 +21,8 @@
     "function3": "tsx function3.ts",
     "hw14_task0": "tsx hw14_task0.ts",
     "hw14_task1": "tsx hw14_task1.ts",
+    "hw15_task0": "tsx hw15_task0.ts",
+    "hw15_task1": "tsx hw15_task1.ts",
     "test": "echo HELLO"
   },
   "devDependencies": {
