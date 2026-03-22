@@ -24,6 +24,7 @@
     "hw15_task0": "tsx hw15_task0.ts",
     "hw15_task1": "tsx hw15_task1.ts",
     "hw16_task0": "tsx hw16_task0.ts",
+    "hw16_task1": "tsx hw16_task1.ts",
     "test": "echo HELLO"
   },
   "devDependencies": {
