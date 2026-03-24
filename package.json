@@ -25,9 +25,20 @@
     "hw15_task1": "tsx hw15_task1.ts",
     "hw16_task0": "tsx hw16_task0.ts",
     "hw16_task1": "tsx hw16_task1.ts",
-    "test": "echo HELLO"
+    "testmocha": "npx mocha --config ./mocha/config/.mocharc",
+    "testjest": "npx jest --config ./Jest/config/jest.config.js"
   },
   "devDependencies": {
+    "@types/chai": "^5.2.3",
+    "@types/jest": "^30.0.0",
+    "@types/mocha": "^10.0.10",
+    "@types/mochawesome": "^6.2.5",
+    "@types/node": "^25.5.0",
+    "chai": "^6.2.2",
+    "jest": "^30.3.0",
+    "mocha": "^11.3.0",
+    "mochawesome": "^7.1.4",
+    "ts-jest": "^29.4.6",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }

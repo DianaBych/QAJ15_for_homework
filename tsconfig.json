@@ -6,6 +6,8 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "allowImportingTsExtensions": true,  // Добавьте эту строку
+    "noEmit": true,  // Нужно добавить при использовании allowImportingTsExtensions
     "forceConsistentCasingInFileNames": true,
     "lib": ["ESNext", "dom"],
     "rootDir": "./"
@@ -14,6 +16,6 @@
     "esm": true,
     "experimentalSpecifierResolution": "node"
   },
-  "include": ["./**/*.ts"],
+  "include": ["./**/*.ts", "**/*.js"],
   "exclude": ["node_modules"]
 }

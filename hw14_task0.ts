@@ -1,38 +1,29 @@
 // 0. Реализовать класс калькулятор, с минимум следующими методами: сложение, вычитание, умножение, деление. Эта задача нам пригодится впоследствии
 
 class calculator {
-  result: number;
-
-  constructor() {
-    this.result = 0;
-  }
-
-  add(a: number, b: number) {
-    this.result = a + b;
-    return this.result;
+  add(...a: number[]) {
+    return a.reduce((acc, current) => acc + current, 0);
   }
 
   subtract(a: number, b: number) {
-    this.result = a - b;
-    return this.result;
+    return a - b;
   }
 
-  multiply(a: number, b: number) {
-    this.result = a * b;
-    return this.result;
+  multiply(...a: number[]) {
+    const defolt = a.length === 0 ? 0 : 1;
+    return a.reduce((acc, current) => acc * current, defolt);
   }
 
   divide(a: number, b: number) {
-    if (!(b === 0)) {
-      this.result = a / b;
-      return this.result;
+    if (b === 0) {
+      throw Error("Ошибка: деление на 0");
     }
-    throw new Error("Ошибка: деление на 0");
+    return a / b;
   }
 }
-const operation = new calculator();
+export const operation = new calculator();
 
-console.log(operation.add(6, 3)); //9
-console.log(operation.subtract(6, 3)); //3
-console.log(operation.multiply(6, 3)); //18
-console.log(operation.divide(6, 0)); //2
+// console.log(operation.add(6, 3)); //9
+// console.log(operation.subtract(6, 3)); //3
+// console.log(operation.multiply(6, 3)); //18
+// console.log(operation.divide(6, 3)); //2
