@@ -23,7 +23,7 @@ class calculator {
 }
 export const operation = new calculator();
 
-// console.log(operation.add(6, 3)); //9
-// console.log(operation.subtract(6, 3)); //3
-// console.log(operation.multiply(6, 3)); //18
-// console.log(operation.divide(6, 3)); //2
+console.log(operation.add(6, 3)); //9
+console.log(operation.subtract(6, 3)); //3
+console.log(operation.multiply(6, 3)); //18
+console.log(operation.divide(6, 3)); //2
