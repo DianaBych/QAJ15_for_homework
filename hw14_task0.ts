@@ -2,7 +2,7 @@
 
 class calculator {
   add(...a: number[]) {
-    return a.reduce((acc, current) => acc + current, 1);
+    return a.reduce((acc, current) => acc + current, 0);
   }
 
   subtract(a: number, b: number) {
@@ -21,7 +21,7 @@ class calculator {
     return a / b;
   }
 }
-const operation = new calculator();
+export const operation = new calculator();
 
 console.log(operation.add(6, 3)); //9
 console.log(operation.subtract(6, 3)); //3
